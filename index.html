@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Lighting Control</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <h1>Smart Lighting Control</h1>
+    </header>
+    <main>
+
+        <section id="floors">
+            <h2>Floors</h2>
+            <select id="floorSelect">
+
+            </select>
+        </section>
+
+        <section id="addFloor">
+            <h2>Add Floor</h2>
+            <input type="text" id="floorName" placeholder="Floor Name">
+            <button id="addFloorBtn">Add</button>
+        </section>
+
+        <section id="rooms" class="hidden">
+            <h2>Rooms</h2>
+            <select id="roomSelect">
+            </select>
+        </section>
+
+        <section id="addRoom" class="hidden">
+            <h2>Add Room to Floor</h2>
+            <input type="text" id="roomName" placeholder="Room Name">
+            <button id="addRoomBtn">Add</button>
+        </section>
+
+        <section id="bulbs" class="hidden">
+            <h2>Light Bulbs</h2>
+            <select id="bulbSelect">
+            </select>
+            <button id="turnOnBtn">Turn On</button>
+            <button id="turnOffBtn">Turn Off</button>
+        </section>
+
+        <section id="addBulb" class="hidden">
+            <h2>Add Bulb to Room</h2>
+            <input type="text" id="bulbName" placeholder="Bulb Name">
+            <button id="addBulbBtn">Add</button>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
